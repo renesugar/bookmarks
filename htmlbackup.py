@@ -48,7 +48,7 @@ def main():
         if title == "":
             title = url
         
-        print('    <DT><A HREF="{url}" ADD_DATE="1504{add_date}228046" LAST_MODIFIED="{last_modified}">{title}</A>\n'.format(url=url, add_date=unixtime_str, last_modified=unixtime_str, title=title))
+        print('    <DT><A HREF="{url}" ADD_DATE="{add_date}" LAST_MODIFIED="{last_modified}">{title}</A>\n'.format(url=url, add_date=unixtime_str, last_modified=unixtime_str, title=title))
         index += 2
 
     print('</DL><p>\n')

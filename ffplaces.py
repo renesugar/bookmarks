@@ -3,7 +3,6 @@ import os
 import argparse
 import sys
 import json
-#import sqlalchemy
 from pprint import pprint
 from sqlalchemy import create_engine, MetaData, Table
 from sqlalchemy.orm import mapper, sessionmaker
